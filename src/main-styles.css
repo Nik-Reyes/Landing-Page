@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #1f2937;
+  justify-content: space-around;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px 60px;
+  gap: 20px;
+}
+
+.nav-header {
+  color: #f9faf8;
+  font-size: 16px;
+  flex: initial;
+}
+
+.list-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}

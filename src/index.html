@@ -4,75 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link rel="stylesheet" href="./main-styles.css" />
   </head>
   <body>
     <div class="nav">
-      <h4 class="nav-header">Header Logo</h4>
+      <h4 class="nav-header dark-header-color">Header Logo</h4>
       <div class="list-wrapper">
-        <ul class="nav-links">
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
+        <ul class="nav-links dark-bg-">
+          <li><a class="dark-text-color" href="#">header link one</a></li>
+          <li><a class="dark-text-color" href="#">header link two</a></li>
+          <li><a class="dark-text-color" href="#">header link three</a></li>
         </ul>
       </div>
     </div>
 
     <div class="main">
       <div class="section">
-        <div class="showcase">
-          <h1 class="landing-title">The Story of Cemelia Sinsensis</h1>
-          <p class="caption">
-            This website has some subtext and as I write this I wonder if there
-            is a subtext tag. That would be cool. Like a sematic caption element
-            that a figure element has but just regular subtext...
-          </p>
-          <button class="showcase-button">Sign up</button>
-        </div>
-        <div class="image-container">
-          <figure class="image">
-            <img
-              src="../images/japanes-tea-plantation.jpg"
-              alt="Green tea plantation in Shizuoka, Japan"
-              width="600"
-              height="400"
-            />
-            <figcaption class="caption">
-              <em
-                ><p class="caption">
-                  Green tea plantation in Shizuoka, Japan
-                </p></em
-              >
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="section">
-        <h2>Some Random Information</h2>
-        <div class="tea-type-wrapper">
-          <figure class="tea-type">
-            <img />
-            <figcaption class="caption">Black/Red Tea</figcaption>
-          </figure>
-          <figure class="tea-type">
-            <img />
-            <figcaption class="caption">Green Tea</figcaption>
-          </figure>
-          <figure class="tea-type">
-            <img />
-            <figcaption class="caption">Oolong</figcaption>
-          </figure>
-          <figure class="tea-type">
-            <img />
-            <figcaption class="caption">White Tea</figcaption>
-          </figure>
-          <figure class="tea-type">
-            <img />
-            <figcaption class="caption">Yellow Tea</figcaption>
-          </figure>
+        <div class="welcome-wrapper">
+          <div class="showcase">
+            <h2 class="dark-header-color">The Story of Cemelia Sinsensis</h2>
+            <p class="caption dark-text-color">
+              This is where some really cool historical message about tea that
+              encourages the reader to learn about the types of tea would go.
+              Buuuuut, I have no caffeine in my system, so at the moment, my
+              mind is incapable of producing inspriation. The story is super
+              cool and tea tastes wonderful though... trust me.
+            </p>
+            <div class="button-wrapper">
+              <button class="showcase-button">Learn more</button>
+            </div>
+          </div>
+          <div class="image-container">
+            <figure class="image">
+              <img
+                src="../images/japanes-tea-plantation.jpg"
+                alt="Green tea plantation in Shizuoka, Japan"
+                width="600"
+                height="400"
+              />
+              <figcaption class="caption">
+                <em
+                  ><p class="caption dark-text-color fig-caption">
+                    Green tea plantation in Shizuoka, Japan
+                  </p></em
+                >
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </div>
-      <div class="section">
+      <div class="section second">
+        <div class="tea-type-container">
+          <h2>Classic Chinese Teas</h2>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  class="tea-image"
+                  src="file:///Users/Nik/Desktop/repos/git_test/Landing-Page/images/green-tea.jpg"
+                  alt="Image of Green Tea"
+                  width="500"
+                  height="500"
+                />
+              </div>
+              <div class="tea-title">Green tea</div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  class="tea-image"
+                  src="file:///Users/Nik/Desktop/repos/git_test/Landing-Page/images/white-tea.jpg"
+                  alt="Image of White Tea"
+                  width="500"
+                  height="500"
+                />
+              </div>
+              <div class="tea-title">White Tea</div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  class="tea-image"
+                  src="file:///Users/Nik/Desktop/repos/git_test/Landing-Page/images/yellow-tea.jpg"
+                  alt="Image Yellow Tea"
+                  width="500"
+                  height="500"
+                />
+              </div>
+              <div class="tea-title">Yellow Tea</div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  class="tea-image"
+                  src="file:///Users/Nik/Desktop/repos/git_test/Landing-Page/images/black-tea.jpg"
+                  alt="Image of Black Tea"
+                  height="500"
+                  width="500"
+                />
+              </div>
+              <div class="tea-title">Black tea</div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  class="tea-image"
+                  src="file:///Users/Nik/Desktop/repos/git_test/Landing-Page/images/oolong.jpg"
+                  alt="Image of Rolled Oolong Tea"
+                  width="500"
+                  height="500"
+                />
+              </div>
+              <div class="tea-title">Oolong</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section third">
         <div class="quote-block">
           <blockquote
             cite="https://www.goodreads.com/quotes/268168-in-the-liquid-amber-within-the-ivory-porcelain-the-initiated"
@@ -88,18 +137,23 @@
           </p>
         </div>
       </div>
-      <div class="section">
+      <div class="section fourth">
         <div class="call-to-action">
-          <div class="left-call">
-            <h5 class="call-title">Call to action! It's time!</h5>
-            <p class="caption">Sign up for our product over there!</p>
-          </div>
-          <div class="right-call">
-            <button class="call-button">Sign up</button>
+          <div class="inner-container">
+            <div class="left-call">
+              <h5 class="call-title">Call to action! It's time!</h5>
+              <p class="caption">
+                I would like more money to buy even more tea, pleeeeaaassse.
+                Just click that button over there!
+              </p>
+            </div>
+            <div class="right-call">
+              <button type="button" class="call-button">Sign up</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="footer">Copyright &copy; The Odin Project 2025</footer>
+    <footer class="footer">Copyright &copy; The Tea Revolution 2025</footer>
   </body>
 </html>
